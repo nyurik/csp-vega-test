@@ -14,7 +14,7 @@ const csp_headers = {
   'sandbox': ['allow-scripts'],
 
   // Not sure why "self" is not working
-  'frame-src': ["'self'", "http://localhost:7777"],
+  'frame-src': ["'self'", "http://localhost:7777", "http://sophox.org", "https://sophox.org"],
 };
 
 
