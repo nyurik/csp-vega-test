@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <script src="main.js"></script>
+</head>
+
+<body>
+
+<input type="text" id="my-message" value="Your message">
+<button id="my-submit">postMessage</button>
+<button id="my-submit2">create Vega</button>
+
+<iframe id="my-iframe" src="../frame/frame.html?id=123"
+        sandbox="allow-same-origin allow-scripts allow-popups allow-forms">
+</iframe>
+
+<div>
+  Message from iframe:
+<span id='received-message'>(nothing)</span>
+</div>
+
+</body>
+</html>
